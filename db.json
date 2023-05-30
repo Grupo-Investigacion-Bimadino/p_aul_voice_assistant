@@ -1,0 +1,66 @@
+{    
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "John Doe",
+        "edad": 30,
+        "email": "johndoe@example.com"
+      },
+      {
+        "id": 2,
+        "nombre": "Jane Smith",
+        "edad": 25,
+        "email": "janesmith@example.com"
+      },
+      {
+        "id": 3,
+        "nombre": "Robert Johnson",
+        "edad": 35,
+        "email": "robertjohnson@example.com"
+      }
+    ],
+
+    "peticiones": [
+      {
+        "id": 1,
+        "descripcion": "como hacer arroz",
+        "fecha": "2023-05-30",
+        "usuario_id": 1
+      },
+      {
+        "id": 2,
+        "descripcion": "crea un texto de quinientas palabras",
+        "fecha": "2023-05-29",
+        "usuario_id": 2
+      },
+      {
+        "id": 3,
+        "descripcion": "como activar windows",
+        "fecha": "2023-05-28",
+        "usuario_id": 3
+      }
+    ],
+    
+    "respuestas": [
+      {
+        "id": 1,
+        "contenido": "Para hacer arroz...",
+        "fecha": "2023-05-30",
+        "peticion_id": 1
+      },
+      {
+        "id": 2,
+        "contenido": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor...",
+        "fecha": "2023-05-29",
+        "peticion_id": 2
+      },
+      {
+        "id": 3,
+        "contenido": "Para activar windows...",
+        "fecha": "2023-05-28",
+        "peticion_id": 3
+
+      }
+    ]
+  }
+  
