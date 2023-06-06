@@ -33,7 +33,7 @@
     {
       "id": 6,
       "nombre": "Daniel Urriaga",
-      "edad": 13,
+      "edad": 34,
       "email": "daniurri@example.com"
     },
     {
@@ -159,30 +159,33 @@
       "usuario_id": 12
     },
     {
-      "id": 14,
-      "descripcion": "como bailar salsa",
-      "fecha": "2023-06-06",
-      "usuario_id": 14
-    },
-    {
       "id": 13,
       "descripcion": "explicame el uso de las comas",
       "fecha": "2023-06-06",
       "usuario_id": 13
+    },
+    {
+      "id": 14,
+      "descripcion": "el uso de las comas...",
+      "fecha": "2023-06-06",
+      "peticion_id": 14
     }
   ],
   "respuestas": [
     {
       "id": 1,
-      "contenido": "Para hacer arroz...",
-      "fecha": "2023-05-30",
-      "peticion_id": 1
+      "descripcion": "recomendaciones de películas de comedia",
+      "fecha": "2023-06-06",
+      "curso": "lic. informatica",
+      "docente": "M. Toscano",
+      "usuario_id": 1
     },
     {
       "id": 2,
-      "contenido": "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor...",
-      "fecha": "2023-05-29",
-      "peticion_id": 2
+      "contenido": "esto ha sido editado por el metodo PATCH",
+      "fecha": "2023-06-06",
+      "peticion_id": 2,
+      "hora": "2:15"
     },
     {
       "id": 3,
@@ -239,28 +242,10 @@
       "peticion_id": 11
     },
     {
-      "id": 12,
-      "contenido": "Te recomiendo las siguientes películas de comedia...",
-      "fecha": "2023-06-06",
-      "peticion_id": 12
-    },
-    {
-      "id": 13,
-      "contenido": "Aquí tienes una receta de arroz con pollo...",
-      "fecha": "2023-06-06",
-      "peticion_id": 13
-    },
-    {
       "id": 14,
-      "contenido": "Te recomiendo el libro '1984' de George Orwell...",
-      "fecha": "2023-06-05",
+      "descripcion": "el uso de las comas...",
+      "fecha": "2023-06-06",
       "peticion_id": 14
-    },
-    {
-      "id": 15,
-      "contenido": "Puedes utilizar técnicas de pomodoro para mejorar tu concentración...",
-      "fecha": "2023-06-04",
-      "peticion_id": 15
     }
   ]
 }
