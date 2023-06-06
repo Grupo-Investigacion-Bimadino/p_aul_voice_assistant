@@ -1,251 +1,48 @@
 {
   "usuarios": [
-    {
-      "id": 1,
-      "nombre": "John Doe",
-      "edad": 30,
-      "email": "johndoe@example.com"
-    },
-    {
-      "id": 2,
-      "nombre": "Jane Smith",
-      "edad": 25,
-      "email": "janesmith@example.com"
-    },
-    {
-      "id": 3,
-      "nombre": "Robert Johnson",
-      "edad": 35,
-      "email": "robertjohnson@example.com"
-    },
-    {
-      "id": 4,
-      "nombre": "Michael Brown",
-      "edad": 42,
-      "email": "michaelbrown@example.com"
-    },
-    {
-      "id": 5,
-      "nombre": "Emily Davis",
-      "edad": 28,
-      "email": "emilydavis@example.com"
-    },
-    {
-      "id": 6,
-      "nombre": "Daniel Urriaga",
-      "edad": 34,
-      "email": "daniurri@example.com"
-    },
-    {
-      "id": 7,
-      "nombre": "Olivia Thomas",
-      "edad": 27,
-      "email": "oliviathomas@example.com"
-    },
-    {
-      "id": 8,
-      "nombre": "William Anderson",
-      "edad": 33,
-      "email": "williamanderson@example.com"
-    },
-    {
-      "id": 9,
-      "nombre": "Sophia Martinez",
-      "edad": 29,
-      "email": "sophiamartinez@example.com"
-    },
-    {
-      "id": 10,
-      "nombre": "James Taylor",
-      "edad": 38,
-      "email": "jamestaylor@example.com"
-    },
-    {
-      "id": 11,
-      "nombre": "Ava Johnson",
-      "edad": 26,
-      "email": "avajohnson@example.com"
-    },
-    {
-      "id": 12,
-      "nombre": "Alexander Hernandez",
-      "edad": 36,
-      "email": "alexanderhernandez@example.com"
-    },
-    {
-      "id": 13,
-      "nombre": "Mia Khalifa",
-      "edad": 27,
-      "email": "kmia@example.com"
-    },
-    {
-      "id": 14,
-      "nombre": "Daniel Marquez",
-      "edad": 18,
-      "email": "DANIMARQUEZ@example.com"
-    }
+    {"id": 1, "nombre": "John Doe", "edad": 30, "email": "johndoe@example.com"},
+    {"id": 2, "nombre": "Jane Smith", "edad": 25, "email": "janesmith@example.com"},
+    {"id": 3, "nombre": "Robert Johnson", "edad": 35, "email": "robertjohnson@example.com"},
+    {"id": 4, "nombre": "Michael Brown", "edad": 42, "email": "michaelbrown@example.com"},
+    {"id": 5, "nombre": "Emily Davis", "edad": 28, "email": "emilydavis@example.com"},
+    {"id": 6, "nombre": "Daniel Urriaga", "edad": 34, "email": "daniurri@example.com"},
+    {"id": 7, "nombre": "Olivia Thomas", "edad": 27, "email": "oliviathomas@example.com"},
+    {"id": 8, "nombre": "William Anderson", "edad": 33, "email": "williamanderson@example.com"},
+    {"id": 9, "nombre": "Sophia Martinez", "edad": 29, "email": "sophiamartinez@example.com"},
+    {"id": 10, "nombre": "James Taylor", "edad": 38, "email": "jamestaylor@example.com"},
+    {"id": 11, "nombre": "Ava Johnson", "edad": 26, "email": "avajohnson@example.com"},
+    {"id": 12, "nombre": "Alexander Hernandez", "edad": 36, "email": "alexanderhernandez@example.com"},
+    {"id": 13, "nombre": "Mia Khalifa", "edad": 27, "email": "kmia@example.com"},
+    {"id": 14, "nombre": "Daniel Marquez", "edad": 18, "email": "DANIMARQUEZ@example.com"}
   ],
   "peticiones": [
-    {
-      "id": 1,
-      "descripcion": "como hacer arroz",
-      "fecha": "2023-05-30",
-      "usuario_id": 1
-    },
-    {
-      "id": 2,
-      "descripcion": "crea un texto de quinientas palabras",
-      "fecha": "2023-05-29",
-      "usuario_id": 2
-    },
-    {
-      "id": 3,
-      "descripcion": "como activar windows",
-      "fecha": "2023-05-28",
-      "usuario_id": 3
-    },
-    {
-      "id": 4,
-      "descripcion": "receta de pastel de chocolate",
-      "fecha": "2023-06-01",
-      "usuario_id": 4
-    },
-    {
-      "id": 5,
-      "descripcion": "recomendaciones de libros de ciencia ficción",
-      "fecha": "2023-05-31",
-      "usuario_id": 5
-    },
-    {
-      "id": 6,
-      "descripcion": "consejos para mejorar el rendimiento en los estudios",
-      "fecha": "2023-05-27",
-      "usuario_id": 6
-    },
-    {
-      "id": 7,
-      "descripcion": "rutina de ejercicios para perder peso",
-      "fecha": "2023-06-03",
-      "usuario_id": 7
-    },
-    {
-      "id": 8,
-      "descripcion": "instrucciones para cambiar una llanta de automóvil",
-      "fecha": "2023-06-02",
-      "usuario_id": 8
-    },
-    {
-      "id": 9,
-      "descripcion": "consejos para mejorar la concentración",
-      "fecha": "2023-05-26",
-      "usuario_id": 9
-    },
-    {
-      "id": 10,
-      "descripcion": "mejores destinos turísticos en Europa",
-      "fecha": "2023-06-05",
-      "usuario_id": 10
-    },
-    {
-      "id": 11,
-      "descripcion": "cómo hacer ejercicio en casa sin equipamiento",
-      "fecha": "2023-06-04",
-      "usuario_id": 11
-    },
-    {
-      "id": 12,
-      "descripcion": "recomendaciones de películas de comedia",
-      "fecha": "2023-06-06",
-      "usuario_id": 12
-    },
-    {
-      "id": 13,
-      "descripcion": "explicame el uso de las comas",
-      "fecha": "2023-06-06",
-      "usuario_id": 13
-    },
-    {
-      "id": 14,
-      "descripcion": "el uso de las comas...",
-      "fecha": "2023-06-06",
-      "peticion_id": 14
-    }
+    {"id": 1, "descripcion": "como hacer arroz", "fecha": "2023-05-30", "usuario_id": 1},
+    {"id": 2, "descripcion": "crea un texto de quinientas palabras", "fecha": "2023-05-29", "usuario_id": 2},
+    {"id": 3, "descripcion": "como activar windows", "fecha": "2023-05-28", "usuario_id": 3},
+    {"id": 4, "descripcion": "receta de pastel de chocolate", "fecha": "2023-06-01", "usuario_id": 4},
+    {"id": 5, "descripcion": "recomendaciones de libros de ciencia ficción", "fecha": "2023-05-31", "usuario_id": 5},
+    {"id": 6, "descripcion": "consejos para mejorar el rendimiento en los estudios", "fecha": "2023-05-27", "usuario_id": 6},
+    {"id": 7, "descripcion": "rutina de ejercicios para perder peso", "fecha": "2023-06-03", "usuario_id": 7},
+    {"id": 8, "descripcion": "instrucciones para cambiar una llanta de automóvil", "fecha": "2023-06-02", "usuario_id": 8},
+    {"id": 9, "descripcion": "consejos para mejorar la concentración", "fecha": "2023-05-26", "usuario_id": 9},
+    {"id": 10, "descripcion": "mejores destinos turísticos en Europa", "fecha": "2023-06-05", "usuario_id": 10},
+    {"id": 11, "descripcion": "cómo hacer ejercicio en casa sin equipamiento", "fecha": "2023-06-04", "usuario_id": 11},
+    {"id": 12, "descripcion": "recomendaciones de películas de comedia", "fecha": "2023-06-06", "usuario_id": 12},
+    {"id": 13, "descripcion": "explicame el uso de las comas", "fecha": "2023-06-06", "usuario_id": 13},
+    {"id": 14, "descripcion": "el uso de las comas...", "fecha": "2023-06-06", "peticion_id": 14}
   ],
   "respuestas": [
-    {
-      "id": 1,
-      "descripcion": "recomendaciones de películas de comedia",
-      "fecha": "2023-06-06",
-      "curso": "lic. informatica",
-      "docente": "M. Toscano",
-      "usuario_id": 1
-    },
-    {
-      "id": 2,
-      "contenido": "esto ha sido editado por el metodo PATCH",
-      "fecha": "2023-06-06",
-      "peticion_id": 2,
-      "hora": "2:15"
-    },
-    {
-      "id": 3,
-      "contenido": "Para activar windows...",
-      "fecha": "2023-05-28",
-      "peticion_id": 3
-    },
-    {
-      "id": 4,
-      "contenido": "Aquí tienes una receta de pastel de chocolate...",
-      "fecha": "2023-06-01",
-      "peticion_id": 4
-    },
-    {
-      "id": 5,
-      "contenido": "Te recomiendo los siguientes libros de ciencia ficción...",
-      "fecha": "2023-05-31",
-      "peticion_id": 5
-    },
-    {
-      "id": 6,
-      "contenido": "Aquí tienes algunos consejos para mejorar el rendimiento en los estudios...",
-      "fecha": "2023-05-27",
-      "peticion_id": 6
-    },
-    {
-      "id": 7,
-      "contenido": "Te comparto una rutina de ejercicios para perder peso...",
-      "fecha": "2023-06-03",
-      "peticion_id": 7
-    },
-    {
-      "id": 8,
-      "contenido": "Aquí tienes las instrucciones para cambiar una llanta de automóvil...",
-      "fecha": "2023-06-02",
-      "peticion_id": 8
-    },
-    {
-      "id": 9,
-      "contenido": "Te recomiendo los siguientes consejos para mejorar la concentración...",
-      "fecha": "2023-05-26",
-      "peticion_id": 9
-    },
-    {
-      "id": 10,
-      "contenido": "Estos son algunos de los mejores destinos turísticos en Europa...",
-      "fecha": "2023-06-05",
-      "peticion_id": 10
-    },
-    {
-      "id": 11,
-      "contenido": "Aquí tienes algunas formas de hacer ejercicio en casa sin equipamiento...",
-      "fecha": "2023-06-04",
-      "peticion_id": 11
-    },
-    {
-      "id": 14,
-      "descripcion": "el uso de las comas...",
-      "fecha": "2023-06-06",
-      "peticion_id": 14
-    }
+    {"id": 1, "descripcion": "recomendaciones de películas de comedia", "fecha": "2023-06-06", "curso": "lic. informatica", "docente": "M. Toscano", "usuario_id": 1},
+    {"id": 2, "contenido": "esto ha sido editado por el metodo PATCH", "fecha": "2023-06-06", "peticion_id": 2, "hora": "2:15"},
+    {"id": 3, "contenido": "Para activar windows...", "fecha": "2023-05-28", "peticion_id": 3},
+    {"id": 4, "contenido": "Aquí tienes una receta de pastel de chocolate...", "fecha": "2023-06-01", "peticion_id": 4},
+    {"id": 5, "contenido": "Te recomiendo los siguientes libros de ciencia ficción...", "fecha": "2023-05-31", "peticion_id": 5},
+    {"id": 6, "contenido": "Aquí tienes algunos consejos para mejorar el rendimiento en los estudios...", "fecha": "2023-05-27", "peticion_id": 6},
+    {"id": 7, "contenido": "Te comparto una rutina de ejercicios para perder peso...", "fecha": "2023-06-03", "peticion_id": 7},
+    {"id": 8, "contenido": "Aquí tienes las instrucciones para cambiar una llanta de automóvil...", "fecha": "2023-06-02", "peticion_id": 8},
+    {"id": 9, "contenido": "Te recomiendo los siguientes consejos para mejorar la concentración...", "fecha": "2023-05-26", "peticion_id": 9},
+    {"id": 10, "contenido": "Estos son algunos de los mejores destinos turísticos en Europa...", "fecha": "2023-06-05", "peticion_id": 10},
+    {"id": 11, "contenido": "Aquí tienes algunas formas de hacer ejercicio en casa sin equipamiento...", "fecha": "2023-06-04", "peticion_id": 11},
+    {"id": 14, "descripcion": "el uso de las comas...", "fecha": "2023-06-06", "peticion_id": 14}
   ]
 }
