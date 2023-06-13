@@ -1,0 +1,14 @@
++-------------------+          +----------------+          +---------------------+
+|     Usuarios      |          |   Peticiones   |          |     Respuestas      |
++-------------------+          +----------------+          +---------------------+
+| id (PK)           |<-------->| id (PK)        |<-------->| id (PK)             |
+| nombre1           |          | Sentencia      |          | respuesta           |
+| nombre2           |          | fecha          |          | fecha               | 
+| apellido1         |          | usuario_id (FK)|          | peticiones_id (FK)  |
+| apellido2         |          |                |          |                     |
+| nickname          |          |                |          |                     |
+| contraseña        |          |                |          |                     |
+| email             |          |                |          |                     |
++-------------------+          +----------------+          +---------------------+
+     1..1                              1..*                          1..*
+
